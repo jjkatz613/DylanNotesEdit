@@ -1,0 +1,268 @@
+html {
+    background-image: url(images/bg.jpg);
+}
+
+body {
+    margin: 0 auto;
+    width: 1500px;
+    font-family: impact, calibri, helvetica, arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    height: 260px;
+    padding-top: 20px;
+    background-color: cornflowerblue;
+}
+
+.Navi {
+    padding-left: 70px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+    font-size: 48px;
+}
+
+.left {
+    width:500px;
+    float:left
+}
+
+.left ul {
+    padding-left: 60px;
+    padding-top: 90px;
+}
+
+.right {
+    width:500px;
+    float:right
+}
+
+.right ul {
+    float:right;
+    padding-right: 60px;
+    padding-top: 90px;
+}
+
+#logo {
+    padding-left: 75px;
+    width: 360px;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    color:white;
+}
+
+/* MAIN */
+
+#main {
+    padding-top: 0px;
+    height: 250px;
+}
+
+.cf {
+    /**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+}
+
+#main p {
+    background-color: #66a0ff;
+    margin: 0;
+    padding: 50px;
+    color:white;
+    text-align: center;
+    font-size: 100px; 
+}
+
+.box {
+    position: relative;
+    float: left;
+    margin: 15px 0;
+    padding-bottom: 45px;
+}
+
+.box img {
+    position: relative;
+    z-index: 1;
+    margin-left: 75px;
+}
+
+.box p {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 40px;
+    top: 12px;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+#p1 {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 45px;
+    top: 0px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+
+nav {
+    font-family: Calibri, Helvetica, Arial;
+    font-size: 8px;
+    text-align: center;
+}
+
+footer li {
+    border-right: 2px solid #373535;
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer li a {
+    color: #373535;
+}
+
+/*    Buttons!    */
+
+button {
+    font-family: impact, calibri, helvetica, arial;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 31px;
+    padding-right: 25px;
+    margin: 15px;
+}
+
+.ButtonLeft {
+   float:left;
+}
+
+.ButtonRight {
+    float:right;
+}
+
+/* Gemara */
+
+/*  Navi  */
+
+#Navi1 {
+    padding-right: 255px;
+}
+
+#Navi2 {
+    padding-right: 175px;
+}
+
+#Navi3 {
+    padding-right: 415px;
+}
+
+#Navi4 {
+    padding-right: 145px;
+}
+
+#Navi5 {
+    padding-right: 11px;
+}
+
+#Navi6 {
+    padding-right: 269px;
+}
+
+#Navi8 {
+    padding-right: 130px;
+}
+
+#Navi9 {
+    padding-right: 280px;
+}
+
+#Navi10 {
+    padding-right: 354px;
+}
+
+#Navi11 {
+    padding-right: 137px;
+}
+
+#Navi13 {
+    padding-right: 528px;
+}
+
+#Navi14 {
+    padding-right: 209px;
+}
+
+/*  Science  */
+
+#Science1 {
+    padding-right: 470px;
+}
+
+#Science2 {
+    padding-right: 183px;
+}
+
+#Science3 {
+    padding-right: 755px;
+}
+
+#Science4 {
+    padding-right: 685px;
+}
+
+#Science5 {
+    padding-right: 575px;
+}
+
+#Science6 {
+    padding-right: 505px;
+}
+
+/*  Quizlets  */
